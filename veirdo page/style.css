@@ -1,0 +1,249 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.top-bar {
+  background-color: #3182ce; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+  gap: 20px;
+}
+
+/* Main Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Search Bar & Icons */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #9333ea; 
+  border-radius: 8px;
+  width: 250px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  color: #9333ea;
+}
+
+.user-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Container ko set karein */
+.img_1 {
+    width: 100%;
+    max-width: 1200px;    
+    margin: 20px auto;    
+    overflow: hidden;     
+    display: flex;        
+    justify-content: center;
+}
+
+/* Image ko control karein */
+.img_1 img {
+    width: 100%;          
+    height: 450px;        
+    object-fit: cover;    
+    object-position: center; 
+    border-radius: 12px;  
+}
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    gap: 20px;
+    padding: 40px;
+    background-color:white;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    position: relative;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 2px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.product-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-details {
+    padding: 15px;
+}
+
+.price-row {
+    margin: 8px 0;
+}
+
+.curr-price {
+     font-weight: bold;
+      font-size: 16px;
+     }
+
+.old-price {
+     text-decoration: line-through;
+      color: #888; 
+      font-size: 12px;
+       margin: 0 5px; 
+    }
+.discount { 
+    color: #2ecc71; 
+    font-weight: bold;
+     font-size: 12px;
+     }
+
+.best-price {
+    background: #f0fff4;
+    color: #27ae60;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 15px;
+    height: 30px; 
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #f6dfdf;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.add-to-cart:hover {
+    background: #000;
+    color: #fff;
+}
+
+/*Heading ko center karne ke liye */
+.section_title {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.section_title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-section {
+    display: flex;            
+    flex-direction: row;      
+    justify-content: center;  
+    flex-wrap: wrap;          
+    gap: 20px;                
+    padding: 20px;
+}
+
+.product-card {
+    width: 280px;             
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+
+.product-card img {
+    width: 100%;               
+    height: 350px;
+    object-fit: cover;         
+}
+
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card-details {
+    padding: 15px;
+}
+
+.price-row span {
+    margin-right: 5px;
+}
