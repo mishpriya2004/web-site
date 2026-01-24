@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@
   gap: 20px;
 }
 
-/* Main Navbar */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -27,7 +27,6 @@
   border-bottom: 1px solid #eee;
 }
 
-/* Navigation Links */
 .nav-links {
   display: flex;
   list-style: none;
@@ -41,7 +40,7 @@
   font-size: 12px;
 }
 
-/* Search Bar & Icons */
+
 .nav-icons {
   display: flex;
   align-items: center;
@@ -75,7 +74,6 @@
   cursor: pointer;
 }
 
-/* Container ko set karein */
 .img_1 {
     width: 100%;
     max-width: 1200px;    
@@ -85,7 +83,6 @@
     justify-content: center;
 }
 
-/* Image ko control karein */
 .img_1 img {
     width: 100%;          
     height: 450px;        
@@ -191,7 +188,7 @@
     color: #fff;
 }
 
-/*Heading ko center karne ke liye */
+
 .section_title {
     text-align: center;
     margin: 40px 0 20px 0;
